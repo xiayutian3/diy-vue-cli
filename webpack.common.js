@@ -5,7 +5,8 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');//
 
 const htmlPlugin = new HtmlWebpackPlugin({
   // 生成的html的title
-  title: 'Vue Starter',
+  title: 'Vue Cli',
+  template: 'index.html',
   // 生成的html的文件名
   filename: 'index.html',
   // 注入bundle到body中
