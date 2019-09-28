@@ -1,5 +1,6 @@
 <template>
-  <div>Third Step22222！
+  <div id="app">
+    Third Step22222！
     <span>hello cli</span>
   </div>
 </template>
